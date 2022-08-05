@@ -52,6 +52,12 @@ body {
   width: 100%;
 }
 
+/* Meu CSS */
+
+#personalInfoSection {
+    background-color: blue;
+}
+
 </style>
 
 </head>
@@ -62,14 +68,14 @@ body {
     <main>
         <form id="preferenceCenterForm" name="preferenceCenterForm">
 
-            <fieldset>
+            <fieldset id="personalInfoSection">
                 <legend>Personal Information</legend>
                 <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="firstName">
                 <label for="lastName">Last Name:</label>
                 <input type="text" id="lastName" name="lastName">
             </fieldset>
-            <fieldset>
+            <fieldset id="subscriptionsSection">
                 <legend>Subscriptions</legend>
                 <label for="newsletter1">Newsletter 1:</label>
                 <input type="checkbox" id="newsletter1" name="newsletter1">
@@ -78,7 +84,7 @@ body {
                 <label for="newsletter3">Newsletter 3:</label>
                 <input type="checkbox" id="newsletter3" name="newsletter3">
             </fieldset>
-            <fieldset>
+            <fieldset id="insterestsSection">
                 <legend>Interests</legend>
                 <label for="interest1">Interest 1:</label>
                 <input type="checkbox" id="interest1" name="interest1">
